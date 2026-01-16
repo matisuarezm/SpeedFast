@@ -21,7 +21,7 @@ public class PedidoComida extends Pedido{
     }
 
     @Override
-    protected void calcularTiempoEntrega() {
+    public void calcularTiempoEntrega() {
         int tiempoBase = 15;
         int tiempoDistancia = 0;
         if (getDistanciaKm() > 1){

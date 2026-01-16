@@ -62,7 +62,7 @@ public abstract class Pedido {
         System.out.println();
     }
 
-    protected abstract void calcularTiempoEntrega();
+    public abstract void calcularTiempoEntrega();
 
     @Override
     public String toString(){

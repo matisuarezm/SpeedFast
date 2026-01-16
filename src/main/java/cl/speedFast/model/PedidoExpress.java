@@ -21,7 +21,7 @@ public class PedidoExpress extends Pedido{
     }
 
     @Override
-    protected void calcularTiempoEntrega() {
+    public void calcularTiempoEntrega() {
         int tiempoEntrega = 10;
         if (getDistanciaKm() > 5){
             tiempoEntrega += 5;
